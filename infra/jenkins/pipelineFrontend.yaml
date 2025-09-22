@@ -201,4 +201,27 @@ spec:
       }
     }
   }
+
+  post {
+    success {
+      container('gradle') {
+          sh """
+              curl -H "Content-Type: application/json" \
+                    -X POST \
+                    -d '{"content":"프론트엔드 빌드 성공: ${env.BUILD_NUMBER}"}' \
+                    https://discordapp.com/api/webhooks/1419497844427198534/cGqansTO4Bc_XnuJfNpn1Yt4lpFDT0uB89_kFEr8uJbNP3kSKKrjorCniBQovbMMyl9a
+          """
+      }
+    }
+    failure {
+      container('gradle') {
+          sh """
+              curl -H "Content-Type: application/json" \
+                    -X POST \
+                    -d '{"content":"프론트엔드 빌드 실패: ${env.BUILD_NUMBER}"}' \
+                    https://discordapp.com/api/webhooks/1419497844427198534/cGqansTO4Bc_XnuJfNpn1Yt4lpFDT0uB89_kFEr8uJbNP3kSKKrjorCniBQovbMMyl9a
+          """
+      }
+    }
+  }
 }
