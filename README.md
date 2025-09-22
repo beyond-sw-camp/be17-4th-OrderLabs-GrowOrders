@@ -191,16 +191,12 @@ HTTPS 인증서를 적용하지 않았지만, 추후 서비스를 정식으로 �
 
 
 
- ## 📺 CI/CD 배포 및 테스트
-
-<br>
-![프론트gif 내꺼](https://github.com/user-attachments/assets/f2b4afd4-e8c5-413c-8a70-a7f015a1ccd4)
-<br><br>
-
+## 📺 CI/CD 배포 및 테스트
 ### 1. Frontend 배포
 <img src="https://github.com/user-attachments/assets/1ad41dd4-f64c-4086-9b8f-cc85a1f5f75f">
 <br><br>
 ---
+
 
 
 
