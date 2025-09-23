@@ -75,8 +75,8 @@
 ## 🎬 CI/CD 파이프라인 흐름 및 시나리오
 
 전제 조건 : CI/CD 프로젝트에서는 쿠버네티스 클러스터 위에 Jenkins를 구축하였습니다. <br><br>
-
-**💻 프론트**
+<details>
+<summary>**💻 프론트**</summary>
 1. **코드 변경 및 Push/Merge**
    - 프론트엔드 소스코드를 GitHub 원격 레포지토리에 Push하거나 main 브랜치에 Merge합니다.
    - GitHub WebHook을 통해 Jenkins 파이프라인 실행이 트리거가 됩니다.
@@ -95,7 +95,8 @@
 4. **최종 서비스 제공**
    - 사용자는 무중단으로 업데이트된 UI를 경험
    - Canary 과정에서 문제가 생기면 빠른 롤백 가능<br><br>  
-  
+
+</details>  
    
    
 
@@ -134,6 +135,7 @@
  -  [CD 설정](https://github.com/beyond-sw-camp/be17-4th-OrderLabs-GrowOrders/wiki/CD-%EC%84%A4%EC%A0%95)
 
 <br><br>
+
 
 
 
