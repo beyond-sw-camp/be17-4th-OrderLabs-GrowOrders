@@ -126,7 +126,7 @@
 
 <br>
 
- -  배포방식
+ -  [배포방식](https://github.com/beyond-sw-camp/be17-4th-OrderLabs-GrowOrders/wiki/%EB%B0%B0%ED%8F%AC-%EB%B0%A9%EC%8B%9D-%EC%84%A4%EC%A0%95)
 
 ### ❓ 프론트에 Canary 배포 쓴 이유
 
@@ -196,6 +196,7 @@ HTTPS 인증서를 적용하지 않았지만, 추후 서비스를 정식으로 �
 
 
 <br><br>
+
 
 
 
