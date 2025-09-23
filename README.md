@@ -66,7 +66,11 @@
 ### 1. Frontend 배포
 <img src="https://github.com/user-attachments/assets/1ad41dd4-f64c-4086-9b8f-cc85a1f5f75f">
 <br><br>
----
+
+### 2. Backend 배포
+<img src="https://github.com/user-attachments/assets/c55df34c-ed7c-4897-9eb3-50427e001946">
+<br><br>
+
 
 ## 🎬 CI/CD 파이프라인 흐름 및 시나리오
 
@@ -131,6 +135,7 @@
  -  [CD 설정](https://github.com/beyond-sw-camp/be17-4th-OrderLabs-GrowOrders/wiki/CD-%EC%84%A4%EC%A0%95)
 
 <br><br>
+
 
 
 
