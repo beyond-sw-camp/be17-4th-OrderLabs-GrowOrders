@@ -58,7 +58,7 @@
 
 <br>
 
-![시스템 아키텍처](https://github.com/user-attachments/assets/686a2f02-6c31-4146-b04d-5d5fef8986be)
+![시스템 아키텍처](https://github.com/user-attachments/assets/6c7f1441-682d-4c4c-b11c-ee258e7b1d69)
 <br><br>
 
 ## 📺 CI/CD 배포 및 테스트
@@ -138,6 +138,7 @@
  -  [CD 설정](https://github.com/beyond-sw-camp/be17-4th-OrderLabs-GrowOrders/wiki/CD-%EC%84%A4%EC%A0%95)  
 
 <br><br>
+
 
 
 
