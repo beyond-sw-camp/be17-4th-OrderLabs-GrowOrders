@@ -62,6 +62,12 @@
 
 <br><br>
 
+## 📺 CI/CD 배포 및 테스트
+### 1. Frontend 배포
+<img src="https://github.com/user-attachments/assets/1ad41dd4-f64c-4086-9b8f-cc85a1f5f75f">
+<br><br>
+---
+
 ## 🎬 CI/CD 파이프라인 흐름 및 시나리오
 
 전제 조건 : CI/CD 프로젝트에서는 쿠버네티스 클러스터 위에 Jenkins를 구축하였습니다. <br><br>
@@ -196,6 +202,7 @@ HTTPS 인증서를 적용하지 않았지만, 추후 서비스를 정식으로 �
 <img src="https://github.com/user-attachments/assets/1ad41dd4-f64c-4086-9b8f-cc85a1f5f75f">
 <br><br>
 ---
+
 
 
 
