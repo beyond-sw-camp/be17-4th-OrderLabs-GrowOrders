@@ -58,8 +58,9 @@
 
 <br>
 
-![시스템 아키텍처](https://github.com/user-attachments/assets/6c7f1441-682d-4c4c-b11c-ee258e7b1d69)
+![시스템 아키텍처](https://github.com/user-attachments/assets/6c58a525-bd48-4d04-8fc8-258287f3944a)
 <br><br>
+
 
 ## 📺 CI/CD 배포 및 테스트
 ### 1. Frontend 배포
@@ -79,7 +80,7 @@
 - Kubernetes
 <img src="https://github.com/user-attachments/assets/3a8cb0c2-f6e5-4f3d-8b34-46015fba81f4">
 <br><br>
-
+<br>
 
 
 ## 🎬 CI/CD 파이프라인 흐름 및 시나리오
@@ -148,6 +149,7 @@
  -  [CD 설정](https://github.com/beyond-sw-camp/be17-4th-OrderLabs-GrowOrders/wiki/CD-%EC%84%A4%EC%A0%95)  
 
 <br><br>
+
 
 
 
