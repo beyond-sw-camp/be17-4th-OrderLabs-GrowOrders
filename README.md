@@ -63,7 +63,12 @@
 
 ## 📺 CI/CD 배포 및 테스트
 ### 1. Frontend 배포
-<img src="https://github.com/user-attachments/assets/1ad41dd4-f64c-4086-9b8f-cc85a1f5f75f">
+- Jenkins 
+<img src="https://github.com/user-attachments/assets/d99e5902-d170-461d-904f-2993d1dd8e45">
+<br><br>
+
+- Kubernetes
+<img src="https://github.com/user-attachments/assets/09f8fb66-9c12-4039-bcb4-1718ccd8dee7">
 <br><br>
 
 ### 2. Backend 배포
@@ -143,6 +148,7 @@
  -  [CD 설정](https://github.com/beyond-sw-camp/be17-4th-OrderLabs-GrowOrders/wiki/CD-%EC%84%A4%EC%A0%95)  
 
 <br><br>
+
 
 
 
