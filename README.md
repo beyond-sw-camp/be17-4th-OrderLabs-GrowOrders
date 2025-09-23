@@ -82,6 +82,21 @@
 <br><br>
 <br>
 
+## 📟 모니터링 서비스 (Prometheus Grafana)
+![그라파나 대시보드](https://github.com/user-attachments/assets/014dbc8c-1e91-419d-9858-8643087fbb77)
+
+<br>
+
+### Grafana 대시보드 접속 정보
+[Grafana 대시보드로 이동](http://192.0.3.13:31960/d/4b545447f/1-kubernetes-all-in-one-cluster-monitoring-kr?var-duration=5m&orgId=1&from=now-3h&to=now&timezone=browser&var-node=&var-instance=prometheus&var-namespace=&var-pod=&refresh=5s)
+
+- ID: admin
+- 비밀번호 확인 방법 (마스터 서버에서 실행):
+```bash
+kubectl get secret --namespace ysm grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
+```
+
+<br><br>
 
 ## 🎬 CI/CD 파이프라인 흐름 및 시나리오
 
@@ -149,21 +164,6 @@
  -  [CD 설정](https://github.com/beyond-sw-camp/be17-4th-OrderLabs-GrowOrders/wiki/CD-%EC%84%A4%EC%A0%95)  
 
 <br><br>
-
-
-## 📟 모니터링 서비스 (Prometheus Grafana)
-![그라파나 대시보드](https://github.com/user-attachments/assets/014dbc8c-1e91-419d-9858-8643087fbb77)
-
-<br>
-
-### Grafana 대시보드 접속 정보
-[Grafana 대시보드로 이동](http://192.0.3.13:31960/d/4b545447f/1-kubernetes-all-in-one-cluster-monitoring-kr?var-duration=5m&orgId=1&from=now-3h&to=now&timezone=browser&var-node=&var-instance=prometheus&var-namespace=&var-pod=&refresh=5s)
-
-- ID: admin
-- 비밀번호 확인 방법 (마스터 서버에서 실행):
-```bash
-kubectl get secret --namespace ysm grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
-```
 
 
 
