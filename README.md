@@ -77,6 +77,7 @@
 전제 조건 : CI/CD 프로젝트에서는 쿠버네티스 클러스터 위에 Jenkins를 구축하였습니다. <br><br>
 <details>
 <summary>**💻 프론트**</summary>
+  
 1. **코드 변경 및 Push/Merge**
    - 프론트엔드 소스코드를 GitHub 원격 레포지토리에 Push하거나 main 브랜치에 Merge합니다.
    - GitHub WebHook을 통해 Jenkins 파이프라인 실행이 트리거가 됩니다.
@@ -99,8 +100,8 @@
 </details>  
    
    
-
-**🌐 백엔드**
+<details>
+<summary>**🌐 백엔드**</summary>
 1. **코드 변경 및 Push/Merge**
    - 백엔드 소스코드를 GitHub 원격 저장소에 Push하거나 main 브랜치에 Merge합니다.
    - GitHub WebHook 이벤트가 발생하면 Jenkins 파이프라인이 자동으로 실행됩니다.
@@ -122,7 +123,7 @@
 5. **최종 서비스 제공**
    - 무중단 배포 환경에서 사용자에게 안정적이고 일관된 백엔드 서비스를 제공
 
-
+</details> 
 <br><br>
 
 
@@ -135,6 +136,7 @@
  -  [CD 설정](https://github.com/beyond-sw-camp/be17-4th-OrderLabs-GrowOrders/wiki/CD-%EC%84%A4%EC%A0%95)
 
 <br><br>
+
 
 
 
