@@ -83,7 +83,7 @@
 <br>
 
 ## 📟 모니터링 서비스 (Prometheus Grafana)
-![그라파나 대시보드](https://github.com/user-attachments/assets/014dbc8c-1e91-419d-9858-8643087fbb77)
+![그라파나 대시보드](https://github.com/user-attachments/assets/f060d721-7e2a-4aff-a48d-63b324ea0f82)
 
 <br>
 
@@ -164,6 +164,7 @@ kubectl get secret --namespace ysm grafana -o jsonpath="{.data.admin-password}" 
  -  [CD 설정](https://github.com/beyond-sw-camp/be17-4th-OrderLabs-GrowOrders/wiki/CD-%EC%84%A4%EC%A0%95)  
 
 <br><br>
+
 
 
 
